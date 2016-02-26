@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Page 3 | DiscApp.com</title>
+  <title>Page 3 | </title>
   <meta name="author" content="Adnan Aziz">
   
-  <meta name="description" content="Use technology to make the world discoverable">
+  <meta name="description" content="Discover and Share Your World">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-  <meta property="og:site_name" content="DiscApp.com"/>
+  <meta property="og:site_name" content=""/>
 
   
     <meta property="og:image" content="undefined"/>
@@ -22,8 +22,9 @@
   
     <link href="/favicon.ico" rel="icon">
   
-  
-  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
@@ -41,39 +42,45 @@
 </head>
 
  <body>  
-  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		<span class="sr-only">Toggle navigation</span>
+	<span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-	  <a class="navbar-brand" href="/">DiscApp.com</a>
+       <a class="navbar-brand" href="/"></a>
       <div class="collapse navbar-collapse nav-menu">
 		<ul class="nav navbar-nav">
 		  
 		  <li>
-			<a href="/archives" title="All the articles.">
+			<a href="/archives" title="All posts">
 			  <i class="fa fa-archive"></i>Archives
 			</a>
 		  </li>
 		  
 		  <li>
-			<a href="/categories" title="All the categories.">
+			<a href="/about" title="About us">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/faq" title="Frequently Asked Questions">
+			  <i class="fa fa-question-circle"></i>FAQ
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All categories">
 			  <i class="fa fa-folder"></i>Categories
 			</a>
 		  </li>
 		  
 		  <li>
-			<a href="/tags" title="All the tags.">
+			<a href="/tags" title="All tags">
 			  <i class="fa fa-tags"></i>Tags
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/about" title="About me.">
-			  <i class="fa fa-user"></i>About
 			</a>
 		  </li>
 		  
@@ -85,8 +92,8 @@
 
   <div class="container">
   	<div class="content">
-    	 <div class="page-header">
-  <h1>Share the World</h1>
+    	 <div class="page-header page-header-inverse ">
+  <h1 class="title title-inverse ">Disc</h1>
 </div>
 
 <div class="row page">
@@ -96,9 +103,10 @@
 	
 
 		<div class="slogan">
-      <i class="fa fa-heart"></i>
+      <i class="fa fa-globe"></i>
       Discover and Share Your World
 </div>    
+
 		<div id="top_search"></div>
 		<div class="mypage">
 		
@@ -108,8 +116,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2016-02-24 </div>
-			<div class="article-title"><a href="/discplaces-overview/" >DiscPlaces Introduction</a></div>						
+			<div class="date"> 2016-02-25 </div>
+			<div class="article-title"><a href="/discplaces-custom/" >Customized DiscPlaces</a></div>						
 		</h3>
 	
 
@@ -118,33 +126,14 @@
   <div class="row">
 	
 	
-		<p>DiscPlaces is an app for hyperlocal search. It’s extremely simple: just a map overlaid with thumbnails of posts, and a searchbar on top. Search is contextual, i.e., search suggestions are based on what’s close to what you are searching for.  Some additional features include</p>
-<ul>
-<li>Showing posts for a single level of a building.</li>
-<li>The ability to of beacons for extremely accurate positioning, as well as alerts.</li>
-<li>Selecting places to search in using place search with suggestions.</li>
-</ul>
-<p>Content for DiscPlaces comes from the companion <a href="/discapp-overview">DiscApp</a>, which allows content creators to generate and edit rich content very easily.</p>
-<p>DiscPlaces will become an open source app - it can be used standalone, or embedded into existing apps. For example, a retailer can embed DiscPlaces into their app, allowing them to give their customers the ability to find items in their store.  By using an API key we provide, the embedded DiscPlaces capability can be restricted to just the content created by a particular user or set of users. Read more about how you can customize DiscPlaces here <a href="/discplaces-custom">DiscApp</a>.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Search</th>
-<th style="text-align:center">Post </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img src="/images/dp-1-small.jpg" alt=""></td>
-<td style="text-align:center"><img src="/images/dp-2-small.jpg" alt=""> </td>
-</tr>
-</tbody>
-</table>
-<p>~  </p>
+		<p>The DiscPlaces mobie app itself is very simple, the smarts, namely scalability, and contextual search, come from the server. You can create content for DiscPlaces using the DiscApp IOS and WebApp.</p>
+<p>As an alternative, you can request a Disc API key, and use that when creating content. This allows you to limit content to the content that you have created. You can use our API to add hyperlocal search to your app. For example, if you are a grocery store, you can add the  capabilities of DiscPlaces to let your customers search your store.  In  addition to our API, you can use the open source code for DiscPlaces to display content, and take advantage of beaconing technology.</p>
+<p>You can also clone the DiscPlaces mobile app, and customize it for your application. This entails choosing a name, icon, getting a Google Maps API key, a Disc API key, and picking the color schema. This gives you a mechanism to brand DiscPlaces for your own application.</p>
+<p>If you do want to create custom content, e.g., for a museum, consider creating an indoor map of your museum. It’s fairly straightforward, though tedious. One of my students created one for his local HEB grocery store, check out his report <a href="https://docs.google.com/presentation/d/1WOmzENeYRbZMZBJAQJ1oqI267LYB8oZkv3Iiy5pb-1s/edit#slide=id.g17531d2bd_074" target="_blank" rel="external">here</a>. You can read more about how you add an indoor map to Google maps <a href="https://support.google.com/gmm/answer/1711534?ref_topic=3100918&amp;p=gmm_guidelines&amp;rd=1" target="_blank" rel="external">here</a>.</p>
 
 	
 	</div>
-  <a type="button" href="/discplaces-overview/#more" class="btn btn-default more">Read More</a>
+  <a type="button" href="/discplaces-custom/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -164,7 +153,7 @@
         <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
 
 		
-          <li class="next disabled"><a>Next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		   <li class="next"> <a href="/page/4/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a> </li>          
         
 	
 </ul>
@@ -196,11 +185,13 @@
 	<h4>Links</h4>
 	<ul class="blogroll list-unstyled">
 	
-		<li><i class=""></i><a href="https://itunes.apple.com/us/app/discapp/id926980453?mt=8" title="" target="_blank"]);">DiscApp IOS App</a></li>
+		<li><i class="fa fa-apple"></i><a href="https://itunes.apple.com/us/app/discapp/id926980453?mt=8" title="" target="_blank"]);">DiscApp IOS App</a></li>
 	
-		<li><i class=""></i><a href="https://disc-app.com" title="" target="_blank"]);">DiscApp Web App</a></li>
+		<li><i class="fa fa-apple"></i><a href="https://itunes.apple.com/us/app/discplaces/id1071622233?mt=8" title="" target="_blank"]);">DiscPlaces IOS App</a></li>
 	
-		<li><i class=""></i><a href="https://itunes.apple.com/us/app/discplaces/id1071622233?mt=8" title="" target="_blank"]);">DiscPlace IOS App</a></li>
+		<li><i class="fa fa-android"></i><a href="https://itunes.apple.com/us/app/discplaces/id1071622233?mt=8" title="" target="_blank"]);">DiscPlaces Android App</a></li>
+	
+		<li><i class="fa fa-gear"></i><a href="https://disc-app.com" title="" target="_blank"]);">DiscApp Web App</a></li>
 	
 	</ul>
 </div>
@@ -213,37 +204,67 @@
   <ul class="entry list-unstyled">
     
       <li>
-        <a href="/discapp-overview/" ><i class="fa fa-file-o"></i>DiscApp Introduction...</a>
+        <a href="/disc-intro/" ></i>Introducing Disc...</a>
       </li>
     
       <li>
-        <a href="/discplaces-custom/" ><i class="fa fa-file-o"></i>Customized DiscPlaces...</a>
+        <a href="/discapp-overview/" ></i>DiscApp Introduction...</a>
       </li>
     
       <li>
-        <a href="/discplaces-overview/" ><i class="fa fa-file-o"></i>DiscPlaces Introduction...</a>
+        <a href="/discplaces-custom/" ></i>Customized DiscPlaces...</a>
+      </li>
+    
+      <li>
+        <a href="/discplaces-overview/" ></i>DiscPlaces Introduction...</a>
       </li>
     
   </ul>
 </div>
 
+
 		
 			
+	<div class="widget">
+		<h4>Categories</h4>
+		<ul class="tag_box inline list-unstyled">
+		
+			<li><a href="/categories/DiscPlaces/">DiscPlaces<span>1</span></a></li>
+		
+			<li><a href="/categories/DiscPlaces/Screenshots/Hyperlocal-Search/">Hyperlocal Search<span>1</span></a></li>
+		
+			<li><a href="/categories/DiscPlaces/Screenshots/">Screenshots<span>1</span></a></li>
+		
+			<li><a href="/categories/DiscPlaces/Screenshots/Hyperlocal-Search/Suggestions/">Suggestions<span>1</span></a></li>
+		
+		</ul>
+	</div>
+
 		
 			
 	<div class="widget">
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/Hyper-Local-Search/">Hyper Local Search<span>1</span></a></li>
+			<li><a href="/tags/DiscPlaces/">DiscPlaces<span>2</span></a></li>
 		
-			<li><a href="/tags/Introduction/">Introduction<span>1</span></a></li>
+			<li><a href="/tags/Introduction/">Introduction<span>2</span></a></li>
 		
-			<li><a href="/tags/DiscPlaces/">DiscPlaces<span>1</span></a></li>
+			<li><a href="/tags/Smart-Tags/">Smart Tags<span>1</span></a></li>
 		
-			<li><a href="/tags/DiscApp/">DiscApp<span>2</span></a></li>
+			<li><a href="/tags/Hyperlocal-Search/">Hyperlocal Search<span>1</span></a></li>
 		
-			<li><a href="/tags/IOS/">IOS<span>1</span></a></li>
+			<li><a href="/tags/Contextual-Search/">Contextual Search<span>1</span></a></li>
+		
+			<li><a href="/tags/Android/">Android<span>1</span></a></li>
+		
+			<li><a href="/tags/DiscApp/">DiscApp<span>3</span></a></li>
+		
+			<li><a href="/tags/Screenshots/">Screenshots<span>1</span></a></li>
+		
+			<li><a href="/tags/Suggestions/">Suggestions<span>1</span></a></li>
+		
+			<li><a href="/tags/IOS/">IOS<span>2</span></a></li>
 		
 		 
 		</ul>
@@ -257,6 +278,7 @@
 	
 	
 </div> <!-- row-fluid -->
+
 	</div>
   </div>
   <div class="container-narrow">
@@ -290,6 +312,15 @@
 </script>
 
 
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
 
 </body>
    </html>
