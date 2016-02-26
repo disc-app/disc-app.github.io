@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>DiscPlaces Introduction | DiscApp.com</title>
+  <title>DiscApp Introduction | DiscApp.com</title>
   <meta name="author" content="Adnan Aziz">
   
   <meta name="description" content="Use technology to make the world discoverable">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="DiscPlaces Introduction"/>
+  <meta property="og:title" content="DiscApp Introduction"/>
   <meta property="og:site_name" content="DiscApp.com"/>
 
   
@@ -72,7 +72,7 @@
 
 	
 		<div class="page-header">		
-			<h1> DiscPlaces Introduction</h1>
+			<h1> DiscApp Introduction</h1>
 		</div>		
 	
 
@@ -89,29 +89,27 @@
 	<div class="mypage">		
 	  		
 
-	  <p>DiscPlaces is an app for hyperlocal search. It’s extremely simple: just a map overlaid with thumbnails of posts, and a searchbar on top. Search is contextual, i.e., search suggestions are based on what’s close to what you are searching for.  Some additional features include</p>
-<ul>
-<li>Showing posts for a single level of a building.</li>
-<li>The ability to of beacons for extremely accurate positioning, as well as alerts.</li>
-<li>Selecting places to search in using place search with suggestions.</li>
-</ul>
-<p>Content for DiscPlaces comes from the companion <a href="/discapp-overview">DiscApp</a>, which allows content creators to generate and edit rich content very easily.</p>
-<p>DiscPlaces will become an open source app - it can be used standalone, or embedded into existing apps. For example, a retailer can embed DiscPlaces into their app, allowing them to give their customers the ability to find items in their store.  By using an API key we provide, the embedded DiscPlaces capability can be restricted to just the content created by a particular user or set of users. Read more about how you can customize DiscPlaces here <a href="/discplaces-custom">DiscApp</a>.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Search</th>
-<th style="text-align:center">Post </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img src="/images/dp-1-small.jpg" alt=""></td>
-<td style="text-align:center"><img src="/images/dp-2-small.jpg" alt=""> </td>
-</tr>
-</tbody>
-</table>
-<p>~  </p>
+	  <div class="panel panel-default" style="display:none" id="hint2-content"><br><div class="panel-heading"><br><h3 class="panel-title">Hint</h3><br></div><br><div class="panel-body"><br>Here is a hint.<br></div><br></div>
+
+<button type="button" id="hint2-btn" value="submit" class="btn btn-danger btn-xs"><br><span>Hint 2</span><br></button>
+
+<script>
+        var visibleHint = false;
+        $(function() {
+            $("#hint2-btn").on("click",
+                function() {
+                    if (visibleHint === false) {
+                        $("#hint2-content").show();
+                        visibleHint = true;
+                    } else {
+                        $("#hint2-content").hide();
+                        visibleHint = false;
+                    }
+                    //$("#hint-content").show();
+                    // also hide
+                })
+        });
+</script>
 	  
 	</div>
 
@@ -121,13 +119,13 @@
 <ul class="pagination">
 	 
 				
-    	<li class="prev"><a href="/test/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+    	<li class="prev"><a href="/ace/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
   		
 
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-		   <li class="next"><a href="/discplaces-custom/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+		   <li class="next"><a href="/discplaces-overview/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
@@ -154,7 +152,7 @@
 	
 	<div class="meta-widget">
 	<i class="fa fa-clock-o"></i>
-	2016-01-26 
+	2016-02-01 
 	</div>
 	
 
