@@ -4,6 +4,22 @@
   
     
     <entry>
+      <title><![CDATA[DiscHyper]]></title>
+      <url>http://www.disc-app.com/dischyper-intro/</url>
+      <content type="html"><![CDATA[<p>Beacons are devices that transmit bluetooth signals that your mobile phone can detect. They are small (similar to a thick coin) and low-energy (lasting 2-24 months on a battery) with a range of 10-100 feet.</p>
+<p>They are nice because</p>
+<ul>
+<li>your phone can detect them in buildings, where it would be otherwise hard to get an accurate GPS fix, and</li>
+<li>an app can generated a notification on detecting a beacon, e.g., “Welcome to HEB, Specials on Aisle 1”</li>
+</ul>
+<p>We’ve put together an extension of DiscPlaces which uses these features. This app is called DiscHyper - it’s currently available for IOS; an Android client is undergoing debugging, and should be available soon.<br>Click <a href="https://itunes.apple.com/us/app/dischyper/id1082149262?mt=8" target="_blank" rel="external">here</a> to download it.</p>
+<p>If you want to deploy beacons, you can use the Disc webapp to create content for your beacons. You use the app to specify the beacon’s configuration (technically the UUID, major and minor ids) as well as the beacon content (location, text, images, and alert message, if desired). You can also use the DiscApp IOS client to create/edit your beacons. Then you configure the beacon (usually using an app from the beacon vendor on your phone), and are set.</p>
+<p>Technically, DiscHyper tells the phone OS to notify it when you come in range of a beacon. We then send this list of beacons along with place/search text when you do a search - knowledge of the beacons you have recently discovered helps us better identify where you are (e.g., which floor of the British Musuem). You can also enable alerts, i.e., the messages that pop up in your phone when you come in range of a beacon.</p>
+<p>Note that you don’t have to have DiscHyper in the foreground for beacon discovery to work - the OS will automatically notify DiscHyper when it discovers beacons.</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Introducing Disc]]></title>
       <url>http://www.disc-app.com/disc-intro/</url>
       <content type="html"><![CDATA[<p>DiscApp is a tool for facilitating writing about places. Specifically, it’s tailored to let you easily create personal and group narratives.  It does this by suggesting tags to add to your posts - these tags are based on tags you’ve used in the past, the place and time you are writing about, and commonly used tags.</p>
